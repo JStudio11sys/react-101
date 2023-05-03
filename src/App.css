@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: left;
+  margin-left: 10px;
+  max-width: 90%;
+}
+
+.header{
+  height: 60px;
+  background-color: blueviolet;
+}
+
+.main-menu li{
+  display: inline-block;
+  padding: 5px 20px;
+}
+
+.main-content{
+  padding: 30px;
+}
+
+.numeric{
+  text-align: right;
+}
+
+.field-label{
+  font-weight: 500;
+  padding-right: 15px;
+}
+
+.footer{
+  height: 40px;
+  background-color: grey;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.tic-box{
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  display: inline-block;
+  border: 1px solid black;
+  text-align: center;
+  line-height: normal;
+  vertical-align: bottom;
+  font-size: 28px;
+}
+
+.withMove{
+  background-color: grey;
+}
+
+.game-status{
+  font-size: 18px;
+  color: brown;
+}
